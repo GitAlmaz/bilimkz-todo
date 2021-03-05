@@ -6,7 +6,7 @@
 			</div>
 		</div>
 		<Button
-			v-if="checkedTodos.length"
+			v-if="checkedTodos"
 			text="Удалить"
 			type="danger"
 			:onClick="deleteHandler"
